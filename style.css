@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Essential for clean table lines */
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: center;
+}
+
+thead {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.time {
+    font-weight: bold;
+    background-color: #f1f3f4;
+    color: #333;
+}
+
+.break {
+    background-color: #e8f0fe;
+    font-style: italic;
+    color: #1967d2;
+    letter-spacing: 2px;
+}
+
+tr:hover {
+    background-color: #fcfcfc;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 0.8rem;
+    }
+}
